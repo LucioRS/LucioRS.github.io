@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0f4c81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g fill="#e2e8f0" font-family="Inter, Arial, sans-serif">
+    <text x="90" y="220" font-size="86" font-weight="800">Lucio R. Salinas</text>
+    <text x="90" y="300" font-size="36" font-weight="600">Robótica · Teleoperación · Control automático</text>
+    <text x="90" y="360" font-size="28">Sitio académico / Academic website</text>
+    <text x="90" y="465" font-size="24">luciosalinas.com</text>
+  </g>
+</svg>

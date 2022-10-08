@@ -1,0 +1,149 @@
+selected:
+- year: 2024
+  type:
+    es: Artículo de revista
+    en: Journal article
+  citation: F. A. Chicaiza, E. Slawiñski, L. R. Salinas, V. A. Mut, “Mapping for stable bilateral teleoperation of manipulators considering time delays”. International Journal of Systems Science, 2024, vol. 55(11), p. 2306-2324
+  url: https://doi.org/10.1080/00207721.2024.2343737
+- year: 2024
+  type:
+    es: Artículo de revista
+    en: Journal article
+  citation: D. Santiago, E. Slawiñski, L. R. Salinas, V. A. Mut, “Force and position coordination for delayed bilateral teleoperation of a manipulator robot”. International Journal of Dynamics and Control, 2024, vol. 12(6), p. 1679-1693
+  url: https://doi.org/10.1007/s40435-023-01298-z
+- year: 2023
+  type:
+    es: Artículo de revista
+    en: Journal article
+  citation: L. R. Salinas, J. Gimenez, D. C. Gandolfo, C. D. Rosales, R. Carelli, “Unified Motion Control for Multilift Unmanned Rotorcraft Systems in Forward Flight”. IEEE Transactions on Control Systems Technology, 2023, vol. 31(4), p. 1607-1621
+  url: https://doi.org/10.1109/TCST.2023.3240541
+- year: 2023
+  type:
+    es: Artículo de revista
+    en: Journal article
+  citation: G. Tzoumas, L. Pitonakova, L. R. Salinas, C. Scales, T. Richardson, S. Hauert, “Wildfire detection in large scale environments using force based control for swarms of UAVs”. Swarm Intelligence, 2023, vol. 17(1), p. 89-115
+  url: https://doi.org/10.1007/s11721-022-00218-9
+- year: 2023
+  type:
+    es: Conferencia
+    en: Conference paper
+  citation: L. R. Salinas, G. Tzoumas, L. Pitonakova, S. Hauert, “Digital twin technology for wildfire monitoring using UAV swarms”. International Conference on Unmanned Aircraft Systems (ICUAS), 2023, Warsaw, Poland
+  url: https://doi.org/10.1109/ICUAS57906.2023.10155819
+- year: 2025
+  type:
+    es: Conferencia
+    en: Conference paper
+  citation: L. R. Salinas, G. Tzoumas, S. Hauert, “Scalable real-time multi-UAV coverage path planning for large geographical areas”. International Conference on Advanced Robotics (ICAR), 2025, San Juan, Argentina
+  url: ''
+books:
+- year: 2014
+  citation: 'Lucio R. Salinas, “Teleoperación de vehículos aéreos no tripulados”. Tesis Doctoral, Universidad Nacional de San Juan. ISBN: 978-987-33-4240-0'
+  url: ''
+chapters:
+- year: 2010
+  citation: 'Lucio R. Salinas, E. Slawiñski, V.A. Mut, José María Sebastián, “Teleoperation and control of mini-helicopters: A case study”. In Robots de Exteriores. Madrid: Centro de Automática y Robótica CSIC-UPM. ISBN: 978-84-614-5558-4'
+  url: ''
+journals:
+- year: 2024
+  citation: F. A. Chicaiza, E. Slawiñski, L. R. Salinas, V. A. Mut, “Mapping for stable bilateral teleoperation of manipulators considering time delays”. International Journal of Systems Science, 2024, vol. 55(11), p. 2306-2324
+  url: https://doi.org/10.1080/00207721.2024.2343737
+- year: 2024
+  citation: D. Santiago, E. Slawiñski, L. R. Salinas, V. A. Mut, “Force and position coordination for delayed bilateral teleoperation of a manipulator robot”. International Journal of Dynamics and Control, 2024, vol. 12(6), p. 1679-1693
+  url: https://doi.org/10.1007/s40435-023-01298-z
+- year: 2023
+  citation: L. R. Salinas, J. Gimenez, D. C. Gandolfo, C. D. Rosales, R. Carelli, “Unified Motion Control for Multilift Unmanned Rotorcraft Systems in Forward Flight”. IEEE Transactions on Control Systems Technology, 2023, vol. 31(4), p. 1607-1621
+  url: https://doi.org/10.1109/TCST.2023.3240541
+- year: 2023
+  citation: G. Tzoumas, L. Pitonakova, L. R. Salinas, C. Scales, T. Richardson, S. Hauert, “Wildfire detection in large scale environments using force based control for swarms of UAVs”. Swarm Intelligence, 2023, vol. 17(1), p. 89-115
+  url: https://doi.org/10.1007/s11721-022-00218-9
+- year: 2022
+  citation: F. A. Chicaiza, E. Slawiñski, L. R. Salinas, V. A. Mut, “Evaluation of path planning with force feedback for bilateral teleoperation of unmanned rotorcraft systems”. Journal of Intelligent & Robotic Systems, 2022, vol. 105(2), p. 34
+  url: https://doi.org/10.1007/s10846-022-01651-y
+- year: 2021
+  citation: D. C. Gandolfo, C. D. Rosales, L. R. Salinas, J. Gimenez, R. Carelli, “Low-cost Position and Force Measurement System for Payload Transport Using UAVs”. International Journal of Automation and Computing, 2021, vol. 18(4), p. 594-604
+  url: https://doi.org/10.1007/s11633-021-1281-4
+- year: 2020
+  citation: J. Gimenez, L. R. Salinas, D. C. Gandolfo, C. D. Rosales, R. Carelli, “Control for cooperative transport of a bar-shaped payload with rotorcraft UAVs including a landing stage on mobile robots”. International Journal of Systems Science, 2020, vol. 51(16), p. 3378-3392
+  url: https://doi.org/10.1080/00207721.2020.1815096
+- year: 2020
+  citation: F. Rossomando, C. D. Rosales, J. Gimenez, L. R. Salinas, C. Soria, M. Sarcinelli-Filho, R. Carelli, “Aerial load transportation with multiple quadrotors based on a kinematic controller and a neural SMC dynamic compensation”. Journal of Intelligent & Robotic Systems, 2020, vol. 100, p. 519-530
+  url: https://doi.org/10.1007/s10846-020-01195-z
+- year: 2018
+  citation: L. R. Salinas, D. Santiago, E. Slawiñski, V. A. Mut, D. Chavez, P. Leica, O. Camacho, “P+d plus sliding mode control for bilateral teleoperation of a mobile robot”. International Journal of Control, Automation and Systems, 2018, vol. 16(4), p. 1927-1937
+  url: https://doi.org/10.1007/s12555-017-0439-x
+- year: 2018
+  citation: J. Gimenez, D. C. Gandolfo, L. R. Salinas, C. D. Rosales, R. Carelli, “Multi-objective control for cooperative payload transport with rotorcraft UAVs”. ISA transactions, 2018, vol. 80, p. 491-502
+  url: https://doi.org/10.1016/j.isatra.2018.05.022
+- year: 2018
+  citation: J. Gimenez, S. Tosetti, L. R. Salinas, R. Carelli, “Bounded memory probabilistic mapping of out-of-structure objects in fruit crops environments”. Computers and Electronics in Agriculture, 2018, vol. 151, p. 11-20
+  url: https://doi.org/10.1016/j.compag.2018.05.018
+- year: 2017
+  citation: D. C. Gandolfo, L. R. Salinas, M. E. Serrano, J. M. Toibero, “Energy evaluation of low-level control in UAVs powered by lithium polymer battery”. ISA transactions, 2017, vol. 71, p. 563-572
+  url: ''
+- year: null
+  citation: D. C. Gandolfo, L. R. Salinas, A. Brandão, J. M. Toibero, “Stable path-following control for a quadrotor helicopter considering energy consumption”. IEEE Transactions on Control Systems Technology, Página 6 de 10 2017, vol. 25(4), p. 1423-1430
+  url: https://doi.org/10.1109/TCST.2016.2601288
+- year: 2016
+  citation: 'D. Gandolfo, L. R. Salinas, A. Brandão, J. M. Toibero, “Path Following for Unmanned Helicopter: An Approach on Energy Autonomy Improvement”. Information Technology and Control, 2016, vol. 45(1), p. 86-98'
+  url: https://doi.org/10.5755/j01.itc.45.1.12413
+- year: 2016
+  citation: E. Slawiñski, S. García, L. R. Salinas, V. A. Mut, “PD-like controller with impedance for delayed bilateral teleoperation of mobile robots”. Robotica, Cambridge University Press, 2016, vol. 34 (9), p. 2151-2161
+  url: https://doi.org/10.1017/S0263574715000223
+- year: 2015
+  citation: L. R. Salinas, E. Slawiñski, V. A. Mut, “Complete bilateral teleoperation system for a rotorcraft UAV with time-varying delay”. Mathematical Problems in Engineering, 2015, 305314 2015/305314
+  url: https://doi.org/10.1155/
+- year: 2015
+  citation: F. Penizzotto, E. Slawiñski, L. R. Salinas, V. A. Mut, “Human-centered control scheme for delayed bilateral teleoperation of mobile robots”. Advanced Robotics, 2015, vol. 29 (19), p. 1253-1268
+  url: https://doi.org/10.1080/01691864.2015.1052011
+- year: 2015
+  citation: 'V. H. Andaluz, F. Roberti, L. R. Salinas, J. M. Toibero, R. Carelli, “Passivity-based Visual Feedback Control with Dynamic Compensation of Mobile Manipulators: Stability and L2-Gain Performance Analysis”. Robotics and Autonomous Systems, 2015, vol. 66, p. 64-74'
+  url: https://doi.org/10.1016/j.robot.2014.12.009
+- year: 2014
+  citation: L. R. Salinas, E. Slawiñski, V. A. Mut, “Kinematic Nonlinear Controller for a Miniature Helicopter via Lyapunov Techniques”. Asian Journal of Control, 2014, vol. 16, p. 856-870 asjc.754
+  url: https://doi.org/10.1002/
+- year: 2012
+  citation: 'E. Slawiñski, V.A. Mut, P. Fiorini, L.R. Salinas, “Quantitative Absolute Transparency for Bilateral Teleoperation of Mobile Robots”. IEEE Transactions on Systems, Man, and Cybernetics—Part A: Systems and Humans, 2012, vol. 42, p. 430–442.'
+  url: https://doi.org/10.1109/TSMCA.2011.2159588
+- year: 2012
+  citation: E. Slawiñski, V.A. Mut, L.R. Salinas, S. García, “Teleoperation of a Mobile Robot with Time-Varying Delay and Force Feedback”. Robotica, 2012, vol. 30, p. 67–77.
+  url: https://doi.org/10.1017/S0263574711000427
+- year: 2012
+  citation: V. H. Andaluz, R. Carelli, L. R. Salinas, F. Roberti, J. M. Toibero, “Visual Control with Adaptive Dynamical Compensation for 3D Target Tracking by Mobile Manipulators”. Mechatronics, 2012, vol. 22, p. 491-502
+  url: https://doi.org/10.1016/j.mechatronics.2011.09.013
+conferences:
+- year: 2025
+  citation: L. R. Salinas, G. Tzoumas, S. Hauert, “Scalable real-time multi-UAV coverage path planning for large geographical areas”. International Conference on Advanced Robotics (ICAR), 2025, San Juan, Argentina
+  url: ''
+- year: 2024
+  citation: G. Tzoumas, L. R. Salinas, A. McConville, T. Richardson, S. Hauert, “Extinguishing Wildfires in Large Scale Scenarios Using Swarms of UAVs”. International Conference on Swarm Intelligence (ANTS), 2024, p. 71-83, Konstanz, Germany
+  url: ''
+- year: 2024
+  citation: 'A. McConville, G. Tzoumas, L. R. Salinas, M. Munera, S. Hauert, “Adoption of UAV Swarm Technology: Survey and Opinions of Firefighters”. IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO), 2024, p. 228-234, Hong Kong, China'
+  url: 'https://doi.org/10.1109/ARSO60199.2024.10557806'
+- year: 2024
+  citation: G. Tzoumas, L. R. Salinas, A. McConville, T. Richardson, S. Hauert, “Use case design for swarms of firefighting UAVs via mutual shaping”. IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO), 2024, p. 43-48, Hong Kong, China
+  url: 'https://doi.org/10.1109/ARSO60199.2024.10558013'
+- year: 2023
+  citation: L. R. Salinas, G. Tzoumas, L. Pitonakova, S. Hauert, “Digital twin technology for wildfire monitoring using UAV swarms”. International Conference on Unmanned Aircraft Systems (ICUAS), 2023, Warsaw, Poland
+  url: https://doi.org/10.1109/ICUAS57906.2023.10155819
+- year: 2023
+  citation: 'L. R. Salinas, G. Tzoumas, L. Pitonakova, S. Hauert, “Sim-to-real transfer of UAV swarms using digital twins”. IEEE International Conference on Robotics and Automation (ICRA), Workshop: “The Role of Robotics Simulators for Unmanned Aerial Vehicles”, 2023, London, UK shop-uav-sims-icra2023/'
+  url: https://imrclab.github.io/work
+- year: 2023
+  citation: 'L. R. Salinas, J. Gimenez, D. C. Gandolfo, C. D. Rosales, R. Carelli, “Energy-efficient control of multi-lift unmanned rotorcraft systems”. IEEE International Conference on Robotics and Automation (ICRA), Workshop: “Energy Efficient Aerial Robotic Systems”, 2023, London, UK s-workshop-icra2023.com/'
+  url: https://aerial-robotic
+- year: 2022
+  citation: 'G. Tzoumas, L. R. Salinas, L. Pitonakova, A. Horlock, J. Waters, S. Hauert, “Developing digital twins of swarms of UAVs for wildfire monitoring”. Robotics: Science and Systems (RSS), Workshop: “Envisioning an Infrastructure for Multi-Robot and Collaborative Autonomy Testing and Evaluation”, 2022, New York, USA'
+  url: https://raaslab.org/rss2022/
+- year: 2021
+  citation: C. D. Rosales, F. Rossomando, L. R. Salinas, J. Gimenez, R. Carelli, “Unified control solution for mobile robot formations”. International Conference on Unmanned Aircraft Systems (ICUAS), 2021, Athens, Greece
+  url: https://doi.org/10.1109/ICUAS51884.2021.9476675
+- year: 2018
+  citation: L. R. Salinas, J. Gimenez, C. D. Rosales, D. C. Gandolfo, “Null-space-based path-following control for cooperative payload transport using multiple rotorcraft UAVs”. International Conference on Unmanned Aircraft Systems (ICUAS), 2018, Dallas, TX, USA
+  url: https://doi.org/10.1109/ICUAS.2018.8453373
+- year: 2011
+  citation: V. H. Andaluz, L. R. Salinas, F. Roberti, J. M. Toibero, R. Carelli, “Switching control signal for bilateral tele-operation of a mobile manipulator”. IEEE International Conference on Control & Automation (ICCA), 2011, Santiago, Chile
+  url: https://doi.org/10.1109/ICCA.2011.6138029
+- year: 2008
+  citation: A. Rosales, G. Scaglia, V. A. Mut, F. di Sciascio, L. R. Salinas, “A linear algebra based formation control for multi-robot systems”. XIII Congreso Latinoamericano de Control Automático (CLCA), 2008, Mérida – Venezuela
+  url: ''

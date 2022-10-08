@@ -1,0 +1,6 @@
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="page-hero__content">{{ . }}</div>{{ end }}
+  </div>
+</section>

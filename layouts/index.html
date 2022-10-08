@@ -1,0 +1,158 @@
+{{ define "main" }}
+{{ $profile := site.Data.profile }}
+{{ $projects := site.Data.projects }}
+{{ $pubs := site.Data.publications }}
+{{ $avatar := "img/avatar.svg" }}
+{{ if fileExists "static/img/avatar.jpeg" }}{{ $avatar = "img/avatar.jpeg" }}{{ end }}
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__content">
+      <p class="eyebrow">{{ i18n "home_intro_title" }}</p>
+      <h1>{{ $profile.person.name }}</h1>
+      <p class="hero__tagline">{{ index $profile.person.tagline site.Language.Lang }}</p>
+      <p class="hero__summary">{{ index $profile.person.summary site.Language.Lang }}</p>
+      <div class="button-row">
+        <a class="button button--primary" href="{{ $profile.person.cv.es | relURL }}">{{ if eq site.Language.Lang "es" }}CV ES{{ else }}Spanish CV{{ end }}</a>
+        <a class="button button--secondary" href="{{ $profile.person.cv.en | relURL }}">{{ if eq site.Language.Lang "es" }}CV EN{{ else }}English CV{{ end }}</a>
+        <a class="button button--secondary" href="{{ "/publications/" | relLangURL }}">{{ i18n "hero_cta_secondary" }}</a>
+        <a class="button button--ghost" href="{{ "/projects/" | relLangURL }}">{{ i18n "hero_cta_tertiary" }}</a>
+      </div>
+      <ul class="social-list">
+        {{ range $profile.person.social }}
+          {{ $label := .label }}
+          {{ if and (eq site.Language.Lang "es") (eq .label "Google Scholar") }}{{ $label = "Google Académico" }}{{ end }}
+          <li>
+            <a class="social-link" href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ $label }}">
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+              <span class="sr-only">{{ $label }}</span>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="hero__aside">
+      <div class="profile-card">
+        <img src="{{ $avatar | relURL }}" alt="Photo of Lucio R. Salinas">
+        <dl class="profile-meta">
+          <div>
+            <dt>{{ i18n "location" }}</dt>
+            <dd>{{ index $profile.person.location site.Language.Lang }}</dd>
+          </div>
+          <div>
+            <dt>{{ i18n "email" }}</dt>
+            <dd><a href="mailto:{{ (index $profile.person.emails 0).value }}">{{ (index $profile.person.emails 0).value }}</a></dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="metrics">
+  <div class="container metrics__grid">
+    {{ range $profile.metrics }}
+      <article class="metric-card">
+        <strong>{{ .value }}</strong>
+        <span>{{ index .label site.Language.Lang }}</span>
+      </article>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <h2>{{ i18n "research_topics" }}</h2>
+      <p>{{ i18n "home_intro_more" }}</p>
+    </div>
+    <div class="tag-list">
+      {{ range $profile.research_topics }}
+        <span class="tag">{{ index . site.Language.Lang }}</span>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-heading">
+      <h2>{{ i18n "current_roles" }}</h2>
+      <a class="section-link" href="{{ "/experience/" | relLangURL }}">{{ i18n "learn_more" }}</a>
+    </div>
+    <div class="card-grid">
+      {{ range $profile.current_positions }}
+        <article class="content-card">
+          <p class="card-eyebrow">{{ index .place site.Language.Lang }}</p>
+          <h3>{{ index .title site.Language.Lang }}</h3>
+          <p class="card-subtitle">{{ .organization }}</p>
+          <p class="card-period">{{ index .period site.Language.Lang }}</p>
+          <ul>
+            {{ range (index .bullets site.Language.Lang) }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <h2>{{ i18n "featured_projects" }}</h2>
+      <a class="section-link" href="{{ "/projects/" | relLangURL }}">{{ i18n "learn_more" }}</a>
+    </div>
+    <div class="card-grid">
+      {{ range first 2 $projects.international }}
+        <article class="content-card">
+          <p class="card-eyebrow">{{ index .role site.Language.Lang }}</p>
+          <h3>{{ index .title site.Language.Lang }}</h3>
+          <p class="card-subtitle">{{ .funding }}</p>
+          <p class="card-period">{{ .period }}</p>
+          <p>{{ index .summary site.Language.Lang }}</p>
+        </article>
+      {{ end }}
+      {{ range first 3 $projects.transfer }}
+        <article class="content-card">
+          <p class="card-eyebrow">{{ index .role site.Language.Lang }}</p>
+          <h3>{{ index .title site.Language.Lang }}</h3>
+          <p class="card-subtitle">{{ .partner }}</p>
+          <p class="card-period">{{ .period }}</p>
+          <p>{{ index .summary site.Language.Lang }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-heading">
+      <h2>{{ i18n "selected_publications" }}</h2>
+      <a class="section-link" href="{{ "/publications/" | relLangURL }}">{{ i18n "view_all_publications" }}</a>
+    </div>
+    <div class="publication-list compact">
+      {{ range first 6 $pubs.selected }}
+        <article class="publication-item">
+          <p class="pub-meta">{{ .year }} · {{ index .type site.Language.Lang }}</p>
+          <p>{{ if .url }}<a href="{{ .url }}">{{ .citation }}</a>{{ else }}{{ .citation }}{{ end }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section contact-cta">
+  <div class="container contact-cta__inner">
+    <div>
+      <h2>{{ i18n "contact" }}</h2>
+      <p>{{ i18n "get_in_touch" }}</p>
+    </div>
+    <div class="button-row">
+      <a class="button button--primary" href="{{ "/contact/" | relLangURL }}">{{ i18n "contact_me" }}</a>
+      <a class="button button--ghost" href="mailto:{{ (index $profile.person.emails 0).value }}">{{ (index $profile.person.emails 0).value }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

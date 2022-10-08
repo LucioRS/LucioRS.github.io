@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ $profile := site.Data.profile }}
+{{ partial "page-hero.html" . }}
+<section class="section">
+  <div class="container prose">
+    <div class="split-grid split-grid--contact">
+      <div class="side-card">
+        <h2>{{ i18n "email" }}</h2>
+        <ul class="plain-list">
+          {{ range $profile.person.emails }}
+            <li><strong>{{ .label }}:</strong> <a href="mailto:{{ .value }}">{{ .value }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="side-card">
+        <h2>{{ i18n "location" }}</h2>
+        <p>{{ index $profile.person.location site.Language.Lang }}</p>
+      </div>
+      <div class="side-card">
+        <h2>{{ i18n "profiles" }}</h2>
+        <ul class="plain-list">
+          {{ range $profile.person.social }}
+            <li><a href="{{ .url }}">{{ .label }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

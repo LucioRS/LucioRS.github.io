@@ -1,0 +1,457 @@
+person:
+  name: Lucio R. Salinas
+  tagline:
+    es: Robótica, teleoperación y control automático para sistemas no tripulados
+    en: Robotics, teleoperation, and automatic control for uncrewed systems
+  summary:
+    es: Investigador Independiente del CONICET y docente de la Universidad Nacional de San Juan. Su trabajo se centra en robótica, teleoperación, control automático, interacción humano-robot, vehículos no tripulados, sistemas multi-agente, gemelos digitales, modelado y simulación, y desarrollo de software.
+    en: Independent Researcher at CONICET and lecturer at the National University of San Juan. His work focuses on robotics, teleoperation, automatic control, human-robot interaction, uncrewed vehicles, multi-agent systems, swarm robotics, digital twinning, modelling and simulation, and software development.
+  location:
+    es: San Juan, Argentina
+    en: San Juan, Argentina
+  emails:
+  - label: INAUT
+    value: lsalinas@inaut.unsj.edu.ar
+  - label: Personal
+    value: lucio.salinas@gmail.com
+  social:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=uvQiD80AAAAJ
+    icon: fa-brands fa-google-scholar
+  - label: ORCID
+    url: https://orcid.org/0000-0002-7330-4131
+    icon: fa-brands fa-orcid
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/lucio-r-salinas/
+    icon: fa-brands fa-linkedin
+  - label: GitHub
+    url: https://github.com/LucioRS
+    icon: fa-brands fa-github
+  cv:
+    es: /uploads/CV_LRS_ES.pdf
+    en: /uploads/CV_LRS_EN.pdf
+metrics:
+- value: '22'
+  label:
+    es: artículos en revistas indexadas
+    en: indexed journal articles
+- value: '13'
+  label:
+    es: proyectos nacionales de I+D
+    en: national R&D projects
+- value: '2'
+  label:
+    es: proyectos internacionales de I+D
+    en: international R&D projects
+- value: 2
+  label:
+    es: tesis de postgrado dirigidas
+    en: graduate theses supervised
+research_topics:
+- es: Robótica
+  en: Robotics
+- es: Teleoperación
+  en: Teleoperation
+- es: Control automático
+  en: Automatic control
+- es: Interacción humano-robot
+  en: Human-robot interaction
+- es: Vehículos no tripulados
+  en: Uncrewed vehicles
+- es: Sistemas multi-agente
+  en: Multi-agent systems
+- es: Robótica de enjambre
+  en: Swarm robotics
+- es: Gemelos digitales
+  en: Digital twinning
+- es: Modelado y simulación
+  en: Modelling and simulation
+- es: Desarrollo de software
+  en: Software development
+current_positions:
+- title:
+    es: Investigador (Independiente)
+    en: Independent Researcher
+  organization: Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) — Instituto de Automática (INAUT), Universidad Nacional de San Juan
+  period:
+    es: 2026–presente
+    en: 2026–present
+  place:
+    es: Argentina
+    en: Argentina
+  bullets:
+    es:
+    - 'Lugar de trabajo: Instituto de Automática (INAUT) - Universidad Nacional de San Juan (UNSJ).'
+    - 'Tema principal: teleoperación y control de vehículos no tripulados.'
+    - 'Áreas de investigación: desarrollo e implementación de algoritmos de control, teleoperación y navegación autónoma; diseño de interfaces humano-robot; desarrollo de entornos digitales.'
+    en:
+    - 'Workplace: Instituto de Automática (INAUT) - National University of San Juan (UNSJ).'
+    - 'Main research topic: teleoperation and control of uncrewed vehicles.'
+    - 'Research areas: development and implementation of control, teleoperation and autonomous navigation algorithms; design of human-robot interfaces; development of digital environments.'
+- title:
+    es: Profesor Adjunto
+    en: Assistant Professor (Lecturer)
+  organization: Universidad Nacional de San Juan — Facultad de Ingeniería
+  period:
+    es: 2026–presente
+    en: 2026–present
+  place:
+    es: Argentina
+    en: Argentina
+  bullets:
+    es:
+    - Dedicación semi-exclusiva en el Departamento de Electrónica y Automática.
+    - Investigación en el Doctorado y Maestría en Ingeniería de Sistemas de Control.
+    - 'Cátedras: Introducción a los Sistemas Digitales, Programación A, Informática I e Informática II.'
+    en:
+    - Instituto de Automática - Department of Electronics and Automation, National University of San Juan.
+    - 'Teaching modules: Computer Science I and Computer Science II.'
+- title:
+    es: Profesor Jefe de Trabajos Prácticos
+    en: Instructor – Practical and Laboratory Teaching
+  organization: Universidad Nacional de San Juan — Facultad de Ingeniería
+  period:
+    es: 2024–presente
+    en: 2024–present
+  place:
+    es: Argentina
+    en: Argentina
+  bullets:
+    es:
+    - Instituto de Automática - Departamento de Electrónica y Automática.
+    - Doctorado y Maestría en Ingeniería de Sistemas de Control (Investigación).
+    - 'Cátedra: Electrónica A.'
+    en:
+    - Instituto de Automática - Department of Electronics and Automation, National University of San Juan.
+    - 'Module: Analog Electronics.'
+research_positions:
+- title:
+    es: Research Associate (Investigador Asociado)
+    en: Research Associate
+  organization: University of Bristol — School of Engineering Mathematics and Technology
+  period: 2021–2024
+  place:
+    es: Reino Unido
+    en: United Kingdom
+  bullets:
+    es:
+    - 'Lugar de trabajo: Department of Engineering Mathematics / Bristol Robotics Laboratory.'
+    - Diseño e implementación de un gemelo digital de un enjambre aéreo para monitoreo y mitigación de incendios forestales, ayuda humanitaria e investigación ambiental en la Antártida.
+    en:
+    - 'Workplace: Department of Engineering Mathematics / Bristol Robotics Laboratory.'
+    - Design and implementation of a digital twin of an aerial swarm for forest-fire monitoring and mitigation, aid delivery, and Antarctic environmental research.
+- title:
+    es: Investigador Adjunto
+    en: Associate Researcher
+  organization: Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) — Instituto de Automática, UNSJ
+  period: 2019–2026
+  place:
+    es: Argentina
+    en: Argentina
+  bullets:
+    es:
+    - 'Tema principal: teleoperación y control de vehículos no tripulados.'
+    - Desarrollo de algoritmos de control, teleoperación y navegación autónoma; diseño de interfaces humano-robot y entornos de simulación.
+    en:
+    - 'Main research topic: teleoperation and control of uncrewed vehicles.'
+    - Development of control, teleoperation, and autonomous navigation algorithms, and design of human-robot interfaces and simulation environments.
+- title:
+    es: Investigador Asistente
+    en: Assistant Researcher
+  organization: Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) — Instituto de Automática, UNSJ
+  period: 2016–2019
+  place:
+    es: Argentina
+    en: Argentina
+  bullets:
+    es:
+    - 'Tema principal: teleoperación y control de vehículos aéreos no tripulados.'
+    en:
+    - 'Main research topic: teleoperation and control of uncrewed aerial vehicles.'
+- title:
+    es: Investigador Postdoctoral
+    en: Postdoctoral Fellow
+  organization: Universidad Técnica Federico Santa María (UTFSM), AC3E
+  period: 2015–2016
+  place:
+    es: Chile
+    en: Chile
+  bullets:
+    es:
+    - Investigación en maquinaria autónoma para agricultura y minería; sensores exteroceptivos, sistemas de control, navegación exterior e interacción humano-máquina.
+    en:
+    - Research on autonomous machinery for industrial processes (agriculture and mining), exteroceptive sensing, control systems, outdoor navigation, and human-robot interaction.
+- title:
+    es: Becario Postdoctoral
+    en: Postdoctoral Fellow
+  organization: Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) — Instituto de Automática, UNSJ
+  period: 2013–2015, 2016
+  place:
+    es: Argentina
+    en: Argentina
+  bullets:
+    es:
+    - Investigación en teleoperación y control de robots móviles aéreos y terrestres, interacción humano-robot, diseño de interfaces de usuario y desarrollo de software.
+    en:
+    - Research on teleoperation and control of aerial and ground mobile robots, human-robot interaction, user-interface design, and software development.
+research_stays:
+- title:
+    es: Teleoperación de vehículos aéreos no tripulados
+    en: Teleoperation of uncrewed aerial vehicles
+  institution: Universidade Federal do Espírito Santo (UFES)
+  period: '2013'
+  details:
+    es:
+    - 'Instituciones: IES/Brasil, UFES y IES/Argentina, INAUT - UNSJ.'
+    - 'Lugar: Laboratorio de Automação Inteligente, Centro Tecnológico, UFES.'
+    en:
+    - 'Institutions: IES/Brazil, UFES and IES/Argentina, INAUT - UNSJ.'
+    - 'Location: Laboratorio de Automação Inteligente, Centro Tecnológico, UFES.'
+- title:
+    es: Teleoperación de mini-helicópteros
+    en: Teleoperation of mini-helicopters
+  institution: Universidade Federal do Espírito Santo (UFES)
+  period: '2010'
+  details:
+    es:
+    - 'Instituciones: IES/Brasil, UFES y IES/Argentina, INAUT - UNSJ.'
+    - 'Lugar: Laboratorio de Automação Inteligente, Centro Tecnológico, UFES.'
+    en:
+    - 'Institutions: IES/Brazil, UFES and IES/Argentina, INAUT - UNSJ.'
+    - 'Location: Laboratorio de Automação Inteligente, Centro Tecnológico, UFES.'
+postgraduate_courses:
+- title:
+    es: Modelado y Control de Vehículos Aéreos
+    en: Modeling and Control of Aerial Vehicles
+  institution: Universidad Nacional de San Juan
+  period: '2010'
+  details:
+    es:
+    - Curso del Programa de Doctorado y Maestría en Ingeniería de Sistemas de Control (formación complementaria).
+    - 'Lugar: Instituto de Automática. Duración: 270 hs. Calificación: 100/100.'
+    en:
+    - Complementary course within the PhD and MSc Program in Control Systems Engineering.
+    - 'Location: Instituto de Automática. Duration: 270 hours. Grade: 100/100.'
+teaching_experience:
+- title:
+    es: Profesor Adjunto
+    en: Assistant Professor (Lecturer)
+  organization: Universidad Nacional de San Juan — Facultad de Ingeniería
+  period: 2026–present
+  place:
+    es: Argentina
+    en: Argentina
+  details:
+    es:
+    - Instituto de Automática - Departamento de Electrónica y Automática.
+    - 'Cátedras: Introducción a los Sistemas Digitales, Programación A, Informática I e Informática II.'
+    en:
+    - Instituto de Automática - Department of Electronics and Automation.
+    - 'Modules: Computer Science I / Computer Science II.'
+- title:
+    es: Profesor Jefe de Trabajos Prácticos
+    en: Instructor – Practical and Laboratory Teaching
+  organization: Universidad Nacional de San Juan — Facultad de Ingeniería
+  period: 2024–present
+  place:
+    es: Argentina
+    en: Argentina
+  details:
+    es:
+    - Instituto de Automática - Departamento de Electrónica y Automática.
+    - Doctorado y Maestría en Ingeniería de Sistemas de Control (Investigación).
+    - 'Cátedra: Electrónica A.'
+    en:
+    - Instituto de Automática - Department of Electronics and Automation.
+    - 'Module: Analog Electronics.'
+- title:
+    es: Profesor Jefe de Trabajos Prácticos
+    en: Instructor – Practical and Laboratory Teaching
+  organization: Universidad Nacional de San Juan — Facultad de Ingeniería
+  period: 2024–2026
+  place:
+    es: Argentina
+    en: Argentina
+  details:
+    es:
+    - Instituto de Automática - Departamento de Electrónica y Automática.
+    - 'Cátedras: Señales y Sistemas / Identificación, Simulación y Optimización.'
+    - Dictado de clases teóricas en temas como números complejos y uso de Matlab/Octave.
+    - Coordinación de clases prácticas y desarrollo de material didáctico para gabinete.
+    en:
+    - Department of Electronics and Automation.
+    - 'Modules: Identification, Simulation and Optimization / Signals and Systems.'
+    - Teaching of lectures on complex numbers and MATLAB/Octave.
+    - Coordination of practical classes and development of teaching materials for computer-lab sessions.
+- title:
+    es: Profesor Jefe de Trabajos Prácticos
+    en: Instructor – Practical and Laboratory Teaching
+  organization: Universidad Nacional de San Juan — Facultad de Ingeniería
+  period: 2017–2021
+  place:
+    es: Argentina
+    en: Argentina
+  details:
+    es:
+    - Instituto de Automática - Departamento de Electrónica y Automática.
+    - 'Cátedra: Sistemas para Control. Doctorado y Maestría en Ingeniería de Sistemas de Control: Control Digital Avanzado.'
+    - Elaboración de guías de laboratorio para sistemas SCADA y material didáctico sobre sensores y posicionamiento.
+    en:
+    - 'Department of Electronics and Automation. Module: Instrumentation and Control.'
+    - 'PhD and MSc in Control Systems Engineering. Modules: Robot Control / Aerial Robots Control.'
+    - Development of laboratory guides and teaching materials for SCADA, sensing, and positioning systems.
+- title:
+    es: Profesor Jefe de Trabajos Prácticos
+    en: Instructor – Practical and Laboratory Teaching
+  organization: Universidad Nacional de San Juan — Facultad de Ingeniería
+  period: 2014–2015
+  place:
+    es: Argentina
+    en: Argentina
+  details:
+    es:
+    - 'Departamento de Electrónica y Automática. Cátedra: Sistemas de Visión.'
+    en:
+    - 'Department of Electronics and Automation. Module: Vision Systems.'
+- title:
+    es: Ayudante Auxiliar docente de 2ª categoría
+    en: Undergraduate Teaching Assistant
+  organization: Universidad Nacional de San Juan — Facultad de Ingeniería
+  period: 2003–2008
+  place:
+    es: Argentina
+    en: Argentina
+  details:
+    es:
+    - 'Departamento de Matemática. Cátedras: Análisis Matemático II / Matemática Aplicada.'
+    en:
+    - 'Department of Mathematics. Modules: Mathematical Analysis II / Applied Mathematics.'
+- title:
+    es: Ayudante Auxiliar docente de 2ª categoría
+    en: Undergraduate Teaching Assistant
+  organization: Universidad Nacional de San Juan — Facultad de Ingeniería
+  period: 2005–2006
+  place:
+    es: Argentina
+    en: Argentina
+  details:
+    es:
+    - 'Departamento de Electrónica y Automática. Cátedras: Control II / Control Digital II.'
+    en:
+    - 'Department of Electronics and Automation. Modules: Control II / Digital Control II.'
+education:
+- degree:
+    es: Doctor en Ingeniería de Sistemas de Control
+    en: PhD in Control Systems Engineering
+  institution: Universidad Nacional de San Juan
+  period: '2013'
+  place:
+    es: Argentina
+    en: Argentina
+  details:
+    es:
+    - 'Tesis: “Teleoperación de vehículos aéreos no tripulados”.'
+    - 'Directores: Vicente A. Mut y Emanuel Slawiñski.'
+    en:
+    - 'Dissertation: “Teleoperation of uncrewed aerial vehicles”.'
+    - 'Supervisors: Vicente A. Mut and Emanuel Slawiñski.'
+- degree:
+    es: Ingeniero en Electrónica
+    en: Electronic Engineering
+  institution: Universidad Nacional de San Juan
+  period: '2008'
+  place:
+    es: Argentina
+    en: Argentina
+  details:
+    es:
+    - 'Trabajo final: “Estructura de software para la implementación de algoritmos de control en robots móviles”.'
+    en:
+    - 'Final project: “Software framework for mobile robot control algorithms”.'
+awards:
+- title:
+    es: Beca Interna Postdoctoral Extraordinaria
+    en: Extraordinary Postdoctoral Fellowship
+  details:
+    es: Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), 2016.
+    en: National Scientific and Technical Research Council (CONICET), 2016.
+- title:
+    es: Beca Interna Postdoctoral
+    en: Postdoctoral Fellowship
+  details:
+    es: Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), 2013–2015.
+    en: National Scientific and Technical Research Council (CONICET), 2013–2015.
+- title:
+    es: Becas Internas de Postgrado — Tipo I y II
+    en: PhD Fellowships — Type I and II
+  details:
+    es: Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), 2008–2013.
+    en: National Scientific and Technical Research Council (CONICET), 2008–2013.
+- title:
+    es: Beca Interna de Investigación
+    en: Research Scholarship
+  details:
+    es: Universidad Nacional de San Juan, categoría Estudiantes Avanzados, 2006–2007.
+    en: National University of San Juan, internal research grant for advanced students, 2006–2007.
+- title:
+    es: Concurso INNOVAR 2022
+    en: INNOVAR 2022 National Innovation Competition
+  details:
+    es: Proyecto ganador en la categoría Robótica / Inteligencia Artificial con “RAT Robot Argentino Teleoperado”; distinción del INTI.
+    en: Award-winning project in the Robotics / Artificial Intelligence category with “RAT Argentine Teleoperated Robot”; recognition from INTI.
+- title:
+    es: Best Project Award
+    en: Best Project Award
+  details:
+    es: Codirección de la tesis de maestría “Teleoperation Interface for Aerial Transportation Systems and Multi-Drone Simulation Based on Unity Engine” (University of Bristol, 2023).
+    en: Co-supervision of the MSc thesis “Teleoperation Interface for Aerial Transportation Systems and Multi-Drone Simulation Based on Unity Engine” (University of Bristol, 2023).
+memberships:
+- Institute of Electrical and Electronics Engineers (IEEE)
+- IEEE Robotics and Automation Society
+- IEEE Control Systems Society
+- IEEE Systems, Man, and Cybernetics Society
+languages:
+- name: English
+  details:
+    es: IELTS General Training 7.0, nivel CEFR C1.
+    en: IELTS General Training 7.0, CEFR C1 level.
+- name: Spanish
+  details:
+    es: Lengua nativa.
+    en: Native language.
+supervision:
+- title:
+    es: Tesis doctoral
+    en: PhD dissertation
+  details:
+    es: 'Codirector de la tesis “Teleoperación bilateral de manipuladores móviles duales” (UNSJ, 2019–2024). Alumno: Ing. Fernando Chicaiza. Estado: finalizada. Financiamiento: DAAD y CONICET.'
+    en: 'Co-supervisor of the PhD dissertation “Bilateral teleoperation of dual mobile manipulators” (UNSJ, 2019–2024). Student: Eng. Fernando Chicaiza. Status: completed. Funding: DAAD and CONICET.'
+- title:
+    es: Tesis de maestría
+    en: Master’s thesis
+  details:
+    es: 'Codirector de la tesis “Teleoperation Interface for Aerial Transportation Systems and Multi-Drone Simulation Based on Unity Engine” (University of Bristol, 2023). Alumno: BEng. Chenli Zhenghe. Premio: Best Project Award.'
+    en: 'Co-supervisor of the thesis “Teleoperation Interface for Aerial Transportation Systems and Multi-Drone Simulation Based on Unity Engine” (University of Bristol, 2023). Student: BEng. Chenli Zhenghe. Award: Best Project Award.'
+- title:
+    es: Trabajos finales de grado
+    en: Undergraduate capstone projects
+  details:
+    es: Director o codirector de trabajos finales de 22 alumnos de Ingeniería Electrónica de la Universidad Nacional de San Juan desde 2010.
+    en: Supervisor or co-supervisor of final projects for 22 students in the Electronic Engineering program at the National University of San Juan since 2010.
+evaluation:
+- year: '2023'
+  item:
+    es: Especialista externo en la evaluación de la convocatoria “Solicitud de Ingreso a la Carrera del Investigador 2022” de CONICET.
+    en: External Specialist in the evaluation process for the CONICET call “Application for Admission to the Scientific Researcher Career 2022”.
+- year: '2016'
+  item:
+    es: Evaluador de Proyecto de Investigación Científica y Tecnológica (PICT) para la Agencia de Promoción Científica y Tecnológica - FONCyT.
+    en: Reviewer of Scientific and Technological Research Projects (PICT) for the Agencia de Promoción Científica y Tecnológica - FONCyT.
+- year: '2014'
+  item:
+    es: Evaluador de Proyecto PICT para la Agencia de Promoción Científica y Tecnológica - FONCyT.
+    en: Reviewer of PICT projects for the Agencia de Promoción Científica y Tecnológica - FONCyT.
+- year: 2012–presente
+  item:
+    es: 'Revisor para revistas como Swarm Intelligence, IEEE Transactions on Industrial Informatics, IEEE Transactions on Industrial Electronics, IEEE/ASME Transactions on Mechatronics, IEEE Transactions on Systems, Man and Cybernetics: Systems, International Journal of Robust and Nonlinear Control, Asian Journal of Control y Revista Iberoamericana de Automática e Informática.'
+    en: 'Reviewer for journals including Swarm Intelligence, IEEE Transactions on Industrial Informatics, IEEE Transactions on Industrial Electronics, IEEE/ASME Transactions on Mechatronics, IEEE Transactions on Systems, Man and Cybernetics: Systems, International Journal of Robust and Nonlinear Control, Asian Journal of Control, and Revista Iberoamericana de Automática e Informática.'

@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $projects := site.Data.projects }}
+{{ partial "page-hero.html" . }}
+
+<section class="section">
+  <div class="container prose">
+    <h2>{{ i18n "international_projects" }}</h2>
+    {{ range $projects.international }}
+      <article class="entry-card">
+        <h3>{{ index .title site.Language.Lang }}</h3>
+        <p><strong>{{ i18n "period" }}:</strong> {{ .period }}</p>
+        <p><strong>{{ i18n "role" }}:</strong> {{ index .role site.Language.Lang }}</p>
+        <p><strong>{{ i18n "funding" }}:</strong> {{ .funding }}</p>
+        {{ with (index .amount site.Language.Lang) }}<p><strong>{{ i18n "amount" }}:</strong> {{ . }}</p>{{ end }}
+        <p>{{ index .summary site.Language.Lang }}</p>
+        {{ with .links }}
+          <p><strong>{{ i18n "links" }}:</strong>
+          {{ range $i, $link := . }}{{ if $i }} · {{ end }}<a href="{{ $link }}">{{ $link }}</a>{{ end }}</p>
+        {{ end }}
+      </article>
+    {{ end }}
+
+    <h2>{{ i18n "national_projects" }}</h2>
+    {{ range $projects.national }}
+      <article class="entry-card">
+        <h3>{{ index .title site.Language.Lang }}</h3>
+        <p><strong>{{ i18n "period" }}:</strong> {{ .period }}</p>
+        <p><strong>{{ i18n "role" }}:</strong> {{ index .role site.Language.Lang }}</p>
+        <p><strong>{{ i18n "funding" }}:</strong> {{ .funding }}</p>
+        {{ with (index .amount site.Language.Lang) }}<p><strong>{{ i18n "amount" }}:</strong> {{ . }}</p>{{ end }}
+        <p>{{ index .summary site.Language.Lang }}</p>
+      </article>
+    {{ end }}
+
+    <h2>{{ i18n "technology_transfer" }}</h2>
+    {{ range $projects.transfer }}
+      <article class="entry-card">
+        <h3>{{ index .title site.Language.Lang }}</h3>
+        <p><strong>{{ i18n "period" }}:</strong> {{ .period }}</p>
+        <p><strong>{{ i18n "partner" }}:</strong> {{ .partner }}</p>
+        <p><strong>{{ i18n "role" }}:</strong> {{ index .role site.Language.Lang }}</p>
+        <p>{{ index .summary site.Language.Lang }}</p>
+        {{ with .video }}<p><strong>{{ i18n "video" }}:</strong> <a href="{{ . }}">{{ . }}</a></p>{{ end }}
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,176 @@
+[skip_to_content]
+other = "Saltar al contenido"
+
+[theme_toggle]
+other = "Cambiar tema"
+
+[download_cv]
+other = "Descargar CV"
+
+[contact_me]
+other = "Contacto"
+
+[selected_publications]
+other = "Publicaciones seleccionadas"
+
+[featured_projects]
+other = "Proyectos destacados"
+
+[research_topics]
+other = "Temas de investigación"
+
+[current_roles]
+other = "Cargos actuales"
+
+[learn_more]
+other = "Ver más"
+
+[experience]
+other = "Experiencia"
+
+[projects]
+other = "Proyectos"
+
+[teaching]
+other = "Docencia y formación"
+
+[publications]
+other = "Publicaciones"
+
+[contact]
+other = "Contacto"
+
+[education]
+other = "Formación académica"
+
+[awards]
+other = "Premios y distinciones"
+
+[memberships]
+other = "Membresías"
+
+[languages_label]
+other = "Idiomas"
+
+[supervision]
+other = "Formación de recursos humanos"
+
+[evaluation]
+other = "Evaluación y arbitraje"
+
+[current_positions]
+other = "Posiciones actuales"
+
+[previous_positions]
+other = "Trayectoria en investigación"
+
+[international_projects]
+other = "Proyectos internacionales"
+
+[national_projects]
+other = "Proyectos nacionales"
+
+[technology_transfer]
+other = "Transferencia y desarrollos tecnológicos"
+
+[selected_work]
+other = "Trabajo seleccionado"
+
+[all_journal_articles]
+other = "Artículos en revistas indexadas"
+
+[conference_papers]
+other = "Conferencias y workshops internacionales"
+
+[books_and_chapters]
+other = "Libros y capítulos"
+
+[search_publications]
+other = "Buscar publicaciones"
+
+[search_placeholder]
+other = "Filtrar por palabra clave, año, revista o coautor"
+
+[showing]
+other = "Mostrando"
+
+[of]
+other = "de"
+
+[items]
+other = "ítems"
+
+[get_in_touch]
+other = "Podés escribirme por correo o encontrarme en estas plataformas."
+
+[location]
+other = "Ubicación"
+
+[email]
+other = "Correo"
+
+[profiles]
+other = "Perfiles"
+
+[view_all_publications]
+other = "Ver todas las publicaciones"
+
+[page_note_en]
+other = "La versión en inglés del sitio ya está estructurada y puede seguir refinándose con un CV en inglés revisado."
+
+[hero_cta_secondary]
+other = "Ver publicaciones"
+
+[hero_cta_tertiary]
+other = "Explorar proyectos"
+
+[built_with]
+other = "Sitio desarrollado con Hugo"
+
+[updated_with_cv]
+other = "Contenido base armado a partir del CV académico"
+
+[selected]
+other = "Seleccionado"
+
+[period]
+other = "Período"
+
+[role]
+other = "Rol"
+
+[funding]
+other = "Financiamiento"
+
+[partner]
+other = "Entidad asociada"
+
+[amount]
+other = "Monto"
+
+[links]
+other = "Enlaces"
+
+[video]
+other = "Video"
+
+[home_intro_title]
+other = "Perfil"
+
+[home_intro_more]
+other = "Trabajo en la intersección entre control automático, robótica, teleoperación, sistemas multiagente y gemelos digitales, con interés especial en vehículos no tripulados y herramientas transferibles para investigación aplicada."
+
+[page_intro_experience]
+other = "Resumen de cargos actuales, trayectoria de investigación, formación, membresías, premios y actividades de evaluación."
+
+[page_intro_projects]
+other = "Selección de proyectos de I+D y desarrollos tecnológicos vinculados con robótica, UAVs, teleoperación y gemelos digitales."
+
+[page_intro_teaching]
+other = "Experiencia docente, supervisión de tesis y formación de recursos humanos."
+
+[page_intro_publications]
+other = "Listado de publicaciones seleccionadas y producción científica relevante."
+
+[page_intro_contact]
+other = "Información de contacto y perfiles académicos."

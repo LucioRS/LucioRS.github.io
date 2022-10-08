@@ -1,0 +1,87 @@
+{{ define "main" }}
+{{ $profile := site.Data.profile }}
+{{ partial "page-hero.html" . }}
+
+<section class="section">
+  <div class="container prose">
+    <h2>{{ i18n "current_positions" }}</h2>
+    {{ range $profile.current_positions }}
+      <article class="entry-card">
+        <h3>{{ index .title site.Language.Lang }}</h3>
+        <p>{{ .organization }} · {{ index .period site.Language.Lang }}</p>
+        <ul>
+          {{ range (index .bullets site.Language.Lang) }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </article>
+    {{ end }}
+
+    <h2>{{ i18n "previous_positions" }}</h2>
+    {{ range $profile.research_positions }}
+      <article class="entry-card">
+        <h3>{{ index .title site.Language.Lang }}</h3>
+        <p>{{ .organization }} · {{ .period }}</p>
+        <ul>
+          {{ range (index .bullets site.Language.Lang) }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </article>
+    {{ end }}
+
+    {{ with $profile.research_stays }}
+      <h2>{{ if eq site.Language.Lang "es" }}Estancias{{ else }}Research stays{{ end }}</h2>
+      {{ range . }}
+        <article class="entry-card">
+          <h3>{{ index .title site.Language.Lang }}</h3>
+          <p>{{ .institution }} · {{ .period }}</p>
+          <ul>
+            {{ range (index .details site.Language.Lang) }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </article>
+      {{ end }}
+    {{ end }}
+
+    <h2>{{ i18n "education" }}</h2>
+    {{ range $profile.education }}
+      <article class="entry-card">
+        <h3>{{ index .degree site.Language.Lang }}</h3>
+        <p>{{ .institution }} · {{ .period }}</p>
+        <ul>
+          {{ range (index .details site.Language.Lang) }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </article>
+    {{ end }}
+
+    <h2>{{ i18n "awards" }}</h2>
+    {{ range $profile.awards }}
+      <article class="entry-card">
+        <h3>{{ index .title site.Language.Lang }}</h3>
+        <p>{{ index .details site.Language.Lang }}</p>
+      </article>
+    {{ end }}
+
+    <h2>{{ i18n "memberships" }}</h2>
+    <article class="entry-card">
+      <ul>
+        {{ range $profile.memberships }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </article>
+
+    <h2>{{ i18n "languages_label" }}</h2>
+    {{ range $profile.languages }}
+      <article class="entry-card">
+        <h3>{{ .name }}</h3>
+        <p>{{ index .details site.Language.Lang }}</p>
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

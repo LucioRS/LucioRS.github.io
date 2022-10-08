@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ $profile := site.Data.profile }}
+{{ partial "page-hero.html" . }}
+
+<section class="section">
+  <div class="container prose">
+    {{ with $profile.postgraduate_courses }}
+      <h2>{{ if eq site.Language.Lang "es" }}Cursos de posgrado{{ else }}Postgraduate courses{{ end }}</h2>
+      {{ range . }}
+        <article class="entry-card">
+          <h3>{{ index .title site.Language.Lang }}</h3>
+          <p>{{ .institution }} · {{ .period }}</p>
+          <ul>
+            {{ range (index .details site.Language.Lang) }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </article>
+      {{ end }}
+    {{ end }}
+
+    <h2>{{ i18n "teaching" }}</h2>
+    {{ range $profile.teaching_experience }}
+      <article class="entry-card">
+        <h3>{{ index .title site.Language.Lang }}</h3>
+        <p>{{ .organization }} · {{ .period }}</p>
+        <ul>
+          {{ range (index .details site.Language.Lang) }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </article>
+    {{ end }}
+
+    <h2>{{ i18n "supervision" }}</h2>
+    {{ range $profile.supervision }}
+      <article class="entry-card">
+        <h3>{{ index .title site.Language.Lang }}</h3>
+        <p>{{ index .details site.Language.Lang }}</p>
+      </article>
+    {{ end }}
+
+    <h2>{{ i18n "evaluation" }}</h2>
+    {{ range $profile.evaluation }}
+      <article class="entry-card">
+        <h3>{{ .year }}</h3>
+        <p>{{ index .item site.Language.Lang }}</p>
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

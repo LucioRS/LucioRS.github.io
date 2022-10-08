@@ -1,0 +1,80 @@
+{{ define "main" }}
+{{ $pubs := site.Data.publications }}
+{{ partial "page-hero.html" . }}
+<section class="section publications-section">
+  <div class="container prose">
+  {{ $scholar := index (where site.Data.profile.person.social "icon" "fa-brands fa-google-scholar") 0 }}
+    {{ with $scholar }}
+      <div class="publications-scholar-row">
+        <a class="social-link" href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ if eq site.Language.Lang "es" }}Google Académico{{ else }}Google Scholar{{ end }}">
+          <i class="{{ .icon }}" aria-hidden="true"></i>
+          <span class="sr-only">{{ if eq site.Language.Lang "es" }}Google Académico{{ else }}Google Scholar{{ end }}</span>
+        </a>
+        <a class="publications-scholar-text" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ if eq site.Language.Lang "es" }}Google Académico{{ else }}Google Scholar{{ end }}</a>
+      </div>
+    {{ end }}
+
+    <div class="toolbar">
+      <div>
+        <label class="toolbar__label" for="pub-filter">{{ i18n "search_publications" }}</label>
+        <input id="pub-filter" class="toolbar__input" type="search" placeholder="{{ i18n "search_placeholder" }}" data-pub-filter>
+      </div>
+      <p class="toolbar__count"><span data-pub-visible>0</span> {{ i18n "of" }} <span data-pub-total>0</span> {{ i18n "items" }}</p>
+    </div>
+
+    <section class="pub-block">
+      <h2>{{ i18n "selected_publications" }}</h2>
+      <div class="publication-list" data-pub-list>
+        {{ range $pubs.selected }}
+          <article class="publication-item" data-pub-item>
+            <p class="pub-meta">{{ .year }} · {{ index .type site.Language.Lang }} · {{ i18n "selected" }}</p>
+            <p>{{ if .url }}<a href="{{ .url }}">{{ .citation }}</a>{{ else }}{{ .citation }}{{ end }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="pub-block">
+      <h2>{{ i18n "books_and_chapters" }}</h2>
+      <div class="publication-list" data-pub-list>
+        {{ range $pubs.books }}
+          <article class="publication-item" data-pub-item>
+            <p class="pub-meta">{{ .year }}</p>
+            <p>{{ if .url }}<a href="{{ .url }}">{{ .citation }}</a>{{ else }}{{ .citation }}{{ end }}</p>
+          </article>
+        {{ end }}
+        {{ range $pubs.chapters }}
+          <article class="publication-item" data-pub-item>
+            <p class="pub-meta">{{ .year }}</p>
+            <p>{{ if .url }}<a href="{{ .url }}">{{ .citation }}</a>{{ else }}{{ .citation }}{{ end }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="pub-block">
+      <h2>{{ i18n "all_journal_articles" }}</h2>
+      <div class="publication-list" data-pub-list>
+        {{ range $pubs.journals }}
+          <article class="publication-item" data-pub-item>
+            <p class="pub-meta">{{ .year }}</p>
+            <p>{{ if .url }}<a href="{{ .url }}">{{ .citation }}</a>{{ else }}{{ .citation }}{{ end }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="pub-block">
+      <h2>{{ i18n "conference_papers" }}</h2>
+      <div class="publication-list" data-pub-list>
+        {{ range $pubs.conferences }}
+          <article class="publication-item" data-pub-item>
+            <p class="pub-meta">{{ .year }}</p>
+            <p>{{ if .url }}<a href="{{ .url }}">{{ .citation }}</a>{{ else }}{{ .citation }}{{ end }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+</section>
+{{ end }}

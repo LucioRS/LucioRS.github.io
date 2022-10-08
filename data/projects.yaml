@@ -1,0 +1,262 @@
+international:
+- title:
+    es: Protecting environments with UAV swarms
+    en: Protecting environments with UAV swarms
+  period: 2022–2024
+  role:
+    es: Investigador
+    en: Researcher
+  funding: UK Research & Innovation – Innovate UK, Future Flight Challenge (Phase 3)
+  amount:
+    es: £5.863.677
+    en: £5,863,677
+  summary:
+    es: Proyecto internacional orientado al uso de enjambres de UAVs para protección ambiental, monitoreo y respuesta en escenarios complejos.
+    en: International project on the use of UAV swarms for environmental protection, monitoring, and response in complex scenarios.
+  links:
+  - https://gtr.ukri.org/projects?ref=10023377
+  - https://research-information.bris.ac.uk/en/projects/protecting-environments-with-uav-swarms
+  - https://youtu.be/9kNdFRetV4w
+  featured: true
+- title:
+    es: Swarm technology and digital twinning to enable coordination and utilisation of high numbers of 100kg payload UAVs in aid delivery and firefighting applications
+    en: Swarm technology and digital twinning to enable coordination and utilisation of high numbers of 100kg payload UAVs in aid delivery and firefighting applications
+  period: 2020–2022
+  role:
+    es: Investigador
+    en: Researcher
+  funding: UK Research & Innovation – Innovate UK, Future Flight Challenge (Phase 2)
+  amount:
+    es: £391.781
+    en: £391,781
+  summary:
+    es: Diseño de estrategias de coordinación y gemelos digitales para sistemas de UAVs de carga útil elevada.
+    en: Design of coordination strategies and digital twins for heavy-payload UAV systems.
+  links:
+  - https://gtr.ukri.org/projects?ref=75392
+  - https://research-information.bris.ac.uk/en/projects/swarm-technology-and-digital-twinning-to-enable-coordination-and-utilisation-of-high-numbers-of-100kg-payload-uavs-in-aid-delivery-and-firefighting-applications
+  - https://youtu.be/s1wBOAW2mhg
+  featured: true
+national:
+- title:
+    es: Control de un manipulador aéreo para inspección de obras hidráulicas
+    en: Control of an aerial manipulator for dam inspection
+  period: 2020–2022
+  role:
+    es: Director / Investigador Principal
+    en: Principal Investigator
+  funding: SECITI y UNSJ, PDTS/2019
+  amount:
+    es: $300.000
+    en: ''
+  summary:
+    es: Proyecto orientado al control y operación de manipuladores aéreos para inspección de infraestructura hidráulica.
+    en: Project focused on control and operation of aerial manipulators for hydraulic infrastructure inspection.
+  featured: true
+- title:
+    es: Desarrollo de un sistema robótico prototipo para la manipulación a distancia de explosivos, sustancias y dispositivos peligrosos
+    en: Development of a prototype robotic system for remote manipulation of explosives, dangerous substances and devices
+  period: 2017–2020
+  role:
+    es: Investigador
+    en: Researcher
+  funding: Ministerio de Defensa (MINDEF), PIDDEF Nº35/2016
+  amount:
+    es: $2.100.000
+    en: ''
+  summary:
+    es: Desarrollo del sistema RAT20 para teleoperación de un robot manipulador dual móvil.
+    en: Development of the RAT20 system for teleoperation of a mobile dual-arm manipulator robot.
+  featured: true
+- title:
+    es: Control Avanzado de Robots en Agricultura Intensiva
+    en: Advanced robot control in intensive agriculture
+  period: 2016–2019
+  role:
+    es: Investigador
+    en: Researcher
+  funding: MinCyT, PICT-2014-1650
+  amount:
+    es: $587.700
+    en: ''
+  summary:
+    es: Investigación en control avanzado aplicado a robótica para agricultura intensiva.
+    en: Research on advanced control applied to robotics for intensive agriculture.
+  featured: true
+- title:
+    es: TELEMETRÍA AGRÍCOLA, una herramienta tecnológica para la gestión eficiente del riego, supervisión de cultivos, y generación de alertas
+    en: AGRICULTURAL TELEMETRY, a technological tool for efficient irrigation management, crop supervision, and generation of alerts
+  period: 2016–2018
+  role:
+    es: Investigador
+    en: Researcher
+  funding: CONICET-SECITI, PIO 84 - PCTI 312
+  amount:
+    es: $650.000
+    en: ''
+  summary:
+    es: Aplicación de tecnologías robóticas y de sensado a la gestión eficiente del riego y monitoreo de cultivos.
+    en: Application of sensing and robotic technologies to efficient irrigation management and crop monitoring.
+- title:
+    es: Estrategias de control de robots para sistemas de producción agro-industrial y de servicios
+    en: Robot control strategies for agro-industrial production and service systems
+  period: 2016–2018
+  role:
+    es: Investigador
+    en: Researcher
+  funding: CONICET, PIP15 Nº11220150100
+  amount:
+    es: $1.122.000
+    en: ''
+  summary:
+    es: Desarrollo de estrategias de control robótico aplicadas a sistemas productivos y de servicios.
+    en: Development of robot-control strategies for production and service systems.
+- title:
+    es: Sistema de captura, integración y visualización de datos para el guiado de cultivos y manejo eficiente del riego
+    en: Data capture, integration and visualization system for crop guidance and efficient irrigation management
+  period: 2015–2017
+  role:
+    es: Investigador
+    en: Researcher
+  funding: SECITI, PCTI 290
+  amount:
+    es: $300.000
+    en: ''
+  summary:
+    es: Integración y visualización de datos para guiado de cultivos y riego eficiente.
+    en: Data integration and visualization for crop guidance and efficient irrigation management.
+- title:
+    es: Supervisión y control de robots en procesos productivos
+    en: Supervision and control of robots in production processes
+  period: 2012–2016
+  role:
+    es: Investigador
+    en: Researcher
+  funding: CONICET, PIP Nº112 20110100223
+  amount:
+    es: $297.000
+    en: ''
+  summary:
+    es: Supervisión y control de robots móviles en procesos productivos.
+    en: Supervision and control of robots in production processes.
+- title:
+    es: Control compartido de sistemas hombre-máquina
+    en: Shared control of human-machine systems
+  period: 2014–2015
+  role:
+    es: Investigador
+    en: Researcher
+  funding: UNSJ, 018/14–CS
+  amount:
+    es: $13.000
+    en: ''
+  summary:
+    es: Control compartido y diseño de interfaces para sistemas hombre-máquina.
+    en: Shared control and interface design for human-machine systems.
+- title:
+    es: Control servo-visual avanzado y teleoperación de robots móviles en el contexto de sistemas productivos
+    en: Advanced servo-visual control and teleoperation of mobile robots in the context of production systems
+  period: 2011–2013
+  role:
+    es: Investigador
+    en: Researcher
+  funding: AGENCIA y UNSJ, PICTO-2009-0107
+  amount:
+    es: $172.800
+    en: ''
+  summary:
+    es: Investigación en teleoperación y control servo-visual de robots móviles.
+    en: Research on teleoperation and advanced servo-visual control of mobile robots.
+- title:
+    es: Control e interfaz de sistemas hombre-máquina
+    en: Control and interface of human-machine systems
+  period: 2011–2013
+  role:
+    es: Investigador
+    en: Researcher
+  funding: UNSJ, I 953
+  amount:
+    es: $14.000
+    en: ''
+  summary:
+    es: Control e interfaz para sistemas hombre-máquina.
+    en: Control and interface design for human-machine systems.
+- title:
+    es: Control servo-visual avanzado de robots móviles en el contexto de sistemas productivos
+    en: Advanced servo-visual control of mobile robots in the context of production systems
+  period: 2011–2013
+  role:
+    es: Investigador
+    en: Researcher
+  funding: UNSJ, I 975
+  amount:
+    es: $14.000
+    en: ''
+  summary:
+    es: Control servo-visual avanzado de robots móviles en aplicaciones productivas.
+    en: Advanced servo-visual control of mobile robots in production applications.
+- title:
+    es: Robótica avanzada para sistemas productivos
+    en: Advanced robotics for production systems
+  period: 2009–2011
+  role:
+    es: Investigador
+    en: Researcher
+  funding: AGENCIA, PICT-2007-00513
+  amount:
+    es: $297.440
+    en: ''
+  summary:
+    es: Robótica avanzada aplicada a sistemas productivos.
+    en: Advanced robotics applied to production systems.
+- title:
+    es: Sistemas de control avanzado de robots en aplicaciones al sector productivo
+    en: Advanced robot control systems in applications to the productive sector
+  period: 2009–2011
+  role:
+    es: Investigador
+    en: Researcher
+  funding: CONICET, PIP Nº1404
+  amount:
+    es: $297.000
+    en: ''
+  summary:
+    es: Aplicación de sistemas de control avanzado de robots al sector productivo.
+    en: Applications of advanced robot-control systems to the productive sector.
+transfer:
+- title:
+    es: Sistema de gemelo digital para enjambre de UAVs II
+    en: UAV swarm digital twin system II
+  period: '2024'
+  partner: University of Bristol / Windracers
+  role:
+    es: Investigador / Desarrollador
+    en: Researcher & Developer
+  summary:
+    es: Gemelo digital de un sistema multi-UAV basado en la plataforma ULTRA.
+    en: Digital twin of a multi-UAV system based on the ULTRA platform.
+  video: https://youtu.be/paPoDEDVauM
+- title:
+    es: Sistema de gemelo digital para enjambre de UAVs I
+    en: UAV swarm digital twin system I
+  period: '2022'
+  partner: University of Bristol / Distributed Avionics
+  role:
+    es: Investigador / Desarrollador
+    en: Researcher & Developer
+  summary:
+    es: Gemelo digital de un sistema multi-UAV basado en la plataforma Believer UAV.
+    en: Digital twin of a multi-UAV system based on the Believer UAV platform.
+  video: https://youtu.be/t1m7ucuwEmM
+- title:
+    es: RAT20 Robot Argentino Teleoperado
+    en: RAT20 Argentine Teleoperated Robot
+  period: '2020'
+  partner: Instituto de Automática (CONICET-UNSJ) / Ministerio de Defensa
+  role:
+    es: Investigador / Desarrollador
+    en: Researcher & Developer
+  summary:
+    es: Desarrollo de un sistema prototipo de teleoperación para un robot manipulador dual móvil.
+    en: Development of a prototype teleoperation system for a mobile dual-arm manipulator robot.
+  video: https://youtu.be/QEgu0GTS06M

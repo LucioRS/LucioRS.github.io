@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>Lucio R. Salinas</strong>
+      <p>{{ index site.Data.profile.person.tagline site.Language.Lang }}</p>
+    </div>
+  </div>
+</footer>
+{{ $script := resources.Get "js/main.js" | minify | fingerprint }}
+<script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container prose">
+    <h1>404</h1>
+    <p>{{ if eq site.Language.Lang "es" }}La página que buscás no existe o fue movida.{{ else }}The page you are looking for does not exist or was moved.{{ end }}</p>
+    <p><a class="button button--primary" href="{{ "/" | relLangURL }}">{{ if eq site.Language.Lang "es" }}Volver al inicio{{ else }}Back to home{{ end }}</a></p>
+  </div>
+</section>
+{{ end }}

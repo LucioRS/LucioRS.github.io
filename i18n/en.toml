@@ -1,0 +1,176 @@
+[skip_to_content]
+other = "Skip to content"
+
+[theme_toggle]
+other = "Toggle theme"
+
+[download_cv]
+other = "Download CV"
+
+[contact_me]
+other = "Contact"
+
+[selected_publications]
+other = "Selected publications"
+
+[featured_projects]
+other = "Featured projects"
+
+[research_topics]
+other = "Research topics"
+
+[current_roles]
+other = "Current roles"
+
+[learn_more]
+other = "Learn more"
+
+[experience]
+other = "Experience"
+
+[projects]
+other = "Projects"
+
+[teaching]
+other = "Teaching and supervision"
+
+[publications]
+other = "Publications"
+
+[contact]
+other = "Contact"
+
+[education]
+other = "Education"
+
+[awards]
+other = "Awards and distinctions"
+
+[memberships]
+other = "Memberships"
+
+[languages_label]
+other = "Languages"
+
+[supervision]
+other = "Supervision"
+
+[evaluation]
+other = "Evaluation and reviewing"
+
+[current_positions]
+other = "Current positions"
+
+[previous_positions]
+other = "Research track record"
+
+[international_projects]
+other = "International projects"
+
+[national_projects]
+other = "National projects"
+
+[technology_transfer]
+other = "Technology transfer and developments"
+
+[selected_work]
+other = "Selected work"
+
+[all_journal_articles]
+other = "Indexed journal articles"
+
+[conference_papers]
+other = "International conference papers and workshops"
+
+[books_and_chapters]
+other = "Books and book chapters"
+
+[search_publications]
+other = "Search publications"
+
+[search_placeholder]
+other = "Filter by keyword, year, venue, or co-author"
+
+[showing]
+other = "Showing"
+
+[of]
+other = "of"
+
+[items]
+other = "items"
+
+[get_in_touch]
+other = "Feel free to email me or find me on the following platforms."
+
+[location]
+other = "Location"
+
+[email]
+other = "Email"
+
+[profiles]
+other = "Profiles"
+
+[view_all_publications]
+other = "View all publications"
+
+[page_note_en]
+other = "The English version is already structured and can be further refined once a reviewed English CV is available."
+
+[hero_cta_secondary]
+other = "View publications"
+
+[hero_cta_tertiary]
+other = "Explore projects"
+
+[built_with]
+other = "Built with Hugo"
+
+[updated_with_cv]
+other = "Base content prepared from the academic CV"
+
+[selected]
+other = "Selected"
+
+[period]
+other = "Period"
+
+[role]
+other = "Role"
+
+[funding]
+other = "Funding"
+
+[partner]
+other = "Partner"
+
+[amount]
+other = "Amount"
+
+[links]
+other = "Links"
+
+[video]
+other = "Video"
+
+[home_intro_title]
+other = "Profile"
+
+[home_intro_more]
+other = "My work sits at the intersection of automatic control, robotics, teleoperation, multi-agent systems, and digital twins, with a particular interest in uncrewed vehicles and transferable tools for applied research."
+
+[page_intro_experience]
+other = "Summary of current roles, research trajectory, education, memberships, awards, and reviewing activity."
+
+[page_intro_projects]
+other = "Selected R&D projects and technology developments related to robotics, UAVs, teleoperation, and digital twins."
+
+[page_intro_teaching]
+other = "Teaching experience, thesis supervision, and research training."
+
+[page_intro_publications]
+other = "Selected publications and relevant scientific output."
+
+[page_intro_contact]
+other = "Contact information and academic profiles."

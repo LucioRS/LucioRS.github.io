@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" role="img" aria-labelledby="title desc">
+  <title id="title">Lucio R. Salinas avatar placeholder</title>
+  <desc id="desc">Monogram avatar for Lucio R. Salinas</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f4c81"/>
+      <stop offset="100%" stop-color="#9fd3ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="720" rx="48" fill="#0f172a"/>
+  <circle cx="300" cy="250" r="120" fill="url(#g)" opacity="0.95"/>
+  <path d="M150 610c24-108 110-170 150-170s126 62 150 170" fill="url(#g)" opacity="0.95"/>
+  <text x="300" y="688" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="48" fill="#e2e8f0">LRS</text>
+</svg>

@@ -1,0 +1,11 @@
+{{- $value := .value -}}
+{{- $lang := .lang | default "es" -}}
+{{- if reflect.IsMap $value -}}
+  {{- with index $value $lang -}}
+    {{- . -}}
+  {{- else -}}
+    {{- with index $value "es" -}}{{ . }}{{ end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $value -}}
+{{- end -}}

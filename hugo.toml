@@ -1,0 +1,98 @@
+baseURL = 'https://luciosalinas.com/'
+title = 'Lucio R. Salinas'
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+
+[pagination]
+  pagerSize = 12
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.7
+  filename = 'sitemap.xml'
+
+[params]
+  author = 'Lucio R. Salinas'
+  customDomain = 'luciosalinas.com'
+  repoURL = 'https://github.com/LucioRS/LucioRS.github.io'
+  githubProfile = 'https://github.com/LucioRS'
+  scholarURL = 'https://scholar.google.com/citations?user=uvQiD80AAAAJ'
+  orcidURL = 'https://orcid.org/0000-0002-7330-4131'
+  linkedinURL = 'https://www.linkedin.com/in/lucio-r-salinas/'
+  mainSections = ['publications']
+
+[languages]
+  [languages.es]
+    languageName = 'Español'
+    languageCode = 'es-AR'
+    weight = 1
+    title = 'Lucio R. Salinas'
+    [languages.es.params]
+      description = 'Sitio académico de Lucio R. Salinas: robótica, teleoperación, control automático y sistemas no tripulados.'
+    [[languages.es.menu.main]]
+      name = 'Inicio'
+      pageRef = '/'
+      weight = 10
+    [[languages.es.menu.main]]
+      name = 'Experiencia'
+      pageRef = '/experience'
+      weight = 20
+    [[languages.es.menu.main]]
+      name = 'Proyectos'
+      pageRef = '/projects'
+      weight = 30
+    [[languages.es.menu.main]]
+      name = 'Docencia'
+      pageRef = '/teaching'
+      weight = 40
+    [[languages.es.menu.main]]
+      name = 'Publicaciones'
+      pageRef = '/publications'
+      weight = 50
+    [[languages.es.menu.main]]
+      name = 'Contacto'
+      pageRef = '/contact'
+      weight = 60
+
+  [languages.en]
+    languageName = 'English'
+    languageCode = 'en-US'
+    weight = 2
+    title = 'Lucio R. Salinas'
+    [languages.en.params]
+      description = 'Academic website of Lucio R. Salinas: robotics, teleoperation, automatic control, and uncrewed systems.'
+    [[languages.en.menu.main]]
+      name = 'Home'
+      pageRef = '/'
+      weight = 10
+    [[languages.en.menu.main]]
+      name = 'Experience'
+      pageRef = '/experience'
+      weight = 20
+    [[languages.en.menu.main]]
+      name = 'Projects'
+      pageRef = '/projects'
+      weight = 30
+    [[languages.en.menu.main]]
+      name = 'Teaching'
+      pageRef = '/teaching'
+      weight = 40
+    [[languages.en.menu.main]]
+      name = 'Publications'
+      pageRef = '/publications'
+      weight = 50
+    [[languages.en.menu.main]]
+      name = 'Contact'
+      pageRef = '/contact'
+      weight = 60
